@@ -13,9 +13,51 @@ code {
     monospace;
 }
 
+.main {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   border-bottom: 2px solid red;
+}
+
+.section {
+  font-family: inherit;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  width: 45%;
+  height: 30px;
+}
+
+.generateButton {
+  width: 100%;
+  padding: 10px 25px;
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.happyBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 100%;
+  margin: 10px auto;
+  background-repeat: no-repeat;
 }
